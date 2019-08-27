@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+legend {
+    caption-side: bottom;
+    font-size: 10px;
+    color: #555555;
+    font-weight: none;
+    text-align: left;
+}
+
+th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicao {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.time {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pontos {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+#libertadores {
+    color: #003366;
+}
+
+#prelib {
+    color: #1398BE;
+}
+
+#sudamerica {
+    color: #DE9800;
+}
+
+#rebaixados {
+    color: #C91B04;
+}
+
+#grey {
+    color: #CCCCCC;
+}
+

@@ -1,0 +1,12 @@
+#border {
+    border: solid;
+    border-width: thin;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}

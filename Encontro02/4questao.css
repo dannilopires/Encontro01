@@ -17,6 +17,10 @@ legend {
     text-align: left;
 }
 
+td:nth-child(2n+1){
+    background-color: #F7F7F7;
+}
+
 th {
     font-size: 13px;
     color: #999999;
@@ -42,6 +46,7 @@ th {
     color: black;
     font-weight: bold;
     text-align: center;
+
 }
 
 td {
@@ -70,4 +75,39 @@ td {
 #grey {
     color: #CCCCCC;
 }
+
+.legenda {
+    text-align: left;
+}
+
+.dam {
+    background-color: #003366;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.dac{
+    background-color: #1398BE;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+.dl{
+    background-color: #DE9800;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+.dv{
+    background-color: #C91B04;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
 

@@ -1,0 +1,8 @@
+table, tr {
+    margin: auto;
+    border: 1px solid black;
+}
+
+#b-add, #b-rm, #b-upd {
+    margin: auto;
+}

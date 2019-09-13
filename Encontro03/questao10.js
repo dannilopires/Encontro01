@@ -4,5 +4,12 @@ function somar(){
     let resultado = parseFloat(num1) + parseFloat(num2);
 
     document.getElementById("resultado").value = resultado;
+}
 
+function changetogreen(){
+    document.querySelector("body").bgColor = "green";
+}
+
+function changetored(){
+    document.querySelector("body").bgColor = "red";
 }

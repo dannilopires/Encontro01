@@ -9,11 +9,18 @@
 </head>
 <body>
 
-    <input type="text" id="nome">
+    <p>Digite seu cpf (apenas números!) no campo abaixo:</p>
     <br>
-    <input type="text" id="sobrenome">
+    <input type="text" maxlength="11" id="cpf" oninput="cpf()"/>   
+    <p id="demo"></p>
+
+    <br> <br> 
+    
+    <p>Digite seu cpf (com pontuação!) no campo abaixo:</p>
     <br>
-    <button type="button" onclick=pessoa()>Saudação</button>
+    <input type="text" maxlength="14" id="cpfPoint" oninput="cpfSem()"/>   
+    <p id="sem"></p>
+
     
 </body>
 </html>

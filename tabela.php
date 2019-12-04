@@ -52,13 +52,13 @@ tr:hover {
 <br>
 <br>
 
-<div>Competência</div>
+<div overflow="auto">
 <table id="myTable" width="100%" cellspacing='0' cellpadding='5'> 
 <tr id="row">
-  <th id="produtotable" style="width:90%" > colaborador </th>
-  <th id="quantidade" style="width:30%" > Habilidade </th>
-  <th id="valoruni" style="width:110%" > Conhecimento </th>
-  <th id="vtotal" style="width:90%" > Valor Total </th>
+  <th id="produtotable" style="width:40%" > colaborador </th>
+  <th id="quantidade" style="width:20%" > Habilidade </th>
+  <th id="valoruni" style="width:20%" > Conhecimento </th>
+  <th id="vtotal" style="width:20%" > Valor Total </th>
 </tr>
      
 <br>
@@ -98,6 +98,7 @@ if ($result->num_rows > 0) {
         echo "<tr><td id='nome'>" . $row["nome"] . "</td><td id='quant'>" . $row["quantidade"] . "</td><td id='vlor'>" . $row["valor"] . "</td></tr>";
     }
     echo "</table>";
+    echo "</div>";
 } else {
     echo "0 resultado";
 }
